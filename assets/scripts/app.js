@@ -1,6 +1,6 @@
 // API-nyckel för väder 9795e1602a571852a281a4c93db2aeeb
-// länk med vädret http://api.openweathermap.org/data/2.5/weather?q=nynashamn&appid=9795e1602a571852a281a4c93db2aeeb
-// länk med forecast http://api.openweathermap.org/data/2.5/forecast?q=nynashamn&appid=9795e1602a571852a281a4c93db2aeeb
+// länk med vädret https://api.openweathermap.org/data/2.5/weather?q=nynashamn&appid=9795e1602a571852a281a4c93db2aeeb
+// länk med forecast https://api.openweathermap.org/data/2.5/forecast?q=nynashamn&appid=9795e1602a571852a281a4c93db2aeeb
 // javascript html ajax youtube
 
 'use strict';

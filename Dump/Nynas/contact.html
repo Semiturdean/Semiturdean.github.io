@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="assets/style/style.css">
+    </head>
+    <body>
+        <header id="MainHeader">
+            <h1>Nickstabadet</h1>
+                <p>Ett soligt sommarbad</p>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Hem</a>
+                </li>
+                    <li>
+                        <a href="contact.html" class="active">Kontakt</a>
+                </li>
+                    <li>
+                        <a href="status.html">Väder</a>
+                </li>
+                    <li>
+                        <a href="index.html">Tillbaka</a>
+                </li>
+            </ul>
+        </nav>
+            <section>
+                <header>
+                    <h2>Lämna dina synpunkter här!</h2>
+                </header>
+                <form>
+                    <div>
+                        <p>
+                            <label>
+                                <span>Rubrik</span>
+                            </label>
+                            <input type="text"
+                                   placeholder="Rubrik"
+                                   >
+                        </p>
+                    </div>
+                    <div>
+                        <p>Beskrivning
+                            <textarea id=textarea
+                                  maxLength="100">    
+                            </textarea>
+                            Max 100 tecken
+                        </p> 
+                    </div>
+                    <div class="Errand">
+                        <label>Ärende</label>
+                            <select>
+                                <option>Strand</option>
+                                <option>Kanot</option>
+                                <option>Vattenpark</option>
+                            </select>
+                        </div>
+                    <div>
+                        <label>
+                            Vill du få svar på din synpunkt?
+                        </label>
+                        <div>
+                            <label for="pov_ja">Ja</label>
+                            <input type="radio"
+                                   value="yes"
+                                   name="synpunkt"
+                                   id="pov_ja">
+                            <label for ="pov_nej">Nej</label>
+                            <input type="radio"
+                                   value="no"
+                                   name="synpunkt"
+                                   id="pov_nej">
+                        </div>
+                    </div>
+                   
+                    <div>
+                        <p>
+                            <label>
+                                <span>Email</span>
+                            </label>
+                            <input type="text"
+                                       placeholder="example@email.com">
+                        </p>
+                    </div>
+                    <button type="submit">Skicka</button>
+                </form>
+        </section>
+        <footer>Vill du veta mer? Skicka e-post till <a href="mailto:semiturdean@hotmail.com">Semiturdean@hotmail.com</a>
+        </footer>
+    </body>
+</html>
